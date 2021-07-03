@@ -458,9 +458,9 @@ StudyComponent = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
 var environment = {
-    production: true,
-    navBarBackgroundColor: 'white',
-    title: 'Development',
+    production: false,
+    navBarBackgroundColor: 'purple',
+    title: 'Test',
 };
 //# sourceMappingURL=environment.js.map
 
