@@ -4,7 +4,7 @@ import "rxjs/add/operator/map";
 
 @Injectable()
 export class GithubFollowersService {
-  private readonly _url = 'https://api.github.com/users/aungnayhtetoo/followers';
+  private readonly _url = 'https://api.github.com/users/mosh-hamedani/followers';
 
   constructor(private http: Http) {  }
 
