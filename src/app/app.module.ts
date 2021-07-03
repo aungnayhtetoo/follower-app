@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router'; 
-import { HttpModule } from "@angular/http";
+import { RouterModule } from '@angular/router';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -10,6 +10,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { GithubFollowersComponent } from './github-followers/github-followers.component';
 
 import { GithubFollowersService } from './github-followers/github-followers.service';
+import { StudyComponent } from './study/study.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { GithubFollowersService } from './github-followers/github-followers.serv
     HomeComponent,
     GithubFollowersComponent,
     AboutComponent,
-    NavbarComponent
+    NavbarComponent,
+    StudyComponent
   ],
   imports: [
     BrowserModule,
